@@ -1,8 +1,7 @@
-﻿using System;
-namespace TemperatureExample
+﻿namespace TemperatureExample
 {
-	public class Temperature
-	{
+    public class Temperature
+    {
         private double fahrenheit;
         public static double absoluteZeroFahrenheit { get; } = -459.67;
 

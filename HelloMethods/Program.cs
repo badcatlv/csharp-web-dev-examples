@@ -1,3 +1,3 @@
-﻿string message = Message.GetMessage("fr");
-Console.WriteLine(message);
+﻿//string message = Message.GetMessage("fr");
+//Console.WriteLine(message);
 Console.ReadLine();
