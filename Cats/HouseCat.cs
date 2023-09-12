@@ -1,5 +1,4 @@
-﻿using System;
-namespace Cats
+﻿namespace Cats
 {
     public class HouseCat : Cat
     {
@@ -13,6 +12,10 @@ namespace Cats
         }
 
         // TODO: On this line, write a constructor that uses the no-arg constructor in the Cat class.
+        public HouseCat(string name)
+        {
+            Name = name;
+        }
 
         public bool IsSatisfied()
         {

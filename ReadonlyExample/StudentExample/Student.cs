@@ -1,10 +1,10 @@
-﻿using System;
-namespace StudentExample
+﻿namespace StudentExample
 {
-	public class Student
-	{
+    public class Student
+    {
         private static int nextStudentId = 1;
         public string Name { get; set; }
+
         private readonly int studentId;
         public int NumberOfCredits { get; set; }
         public double Gpa { get; set; }
@@ -33,6 +33,6 @@ namespace StudentExample
             NumberOfCredits = 0;
             Gpa = 0.0;
         }
-	}
+    }
 }
 
